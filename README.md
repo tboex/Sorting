@@ -4,8 +4,8 @@ libs/ contains various sorting algorithms
 
 
 # How to run
--Compile the .cpp files with g++ on UNIX
+- Compile the .cpp files with g++ on UNIX
 
--(G++ algorithm.cpp -o algorithm)
+- (G++ algorithm.cpp -o algorithm)
 
--run ./algorithm 
+- run ./algorithm 
