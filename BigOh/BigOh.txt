@@ -1,0 +1,13 @@
+Name              Best          Average          Worst          Space Complexity(Worst)
+----------------------------------------------------------------------------
+Quicksort     | O(n log(n)) | O(n log(n))    | O(n^2)         | O(log(n))
+Mergesort     | O(n log(n)) | O(n log(n))    | O(n log(n))    | O(n)
+Timsort       | O(n)        | O(n log(n))    | O(n log(n))    | O(n)
+Heapsort      | O(n log(n)) | O(n log(n))    | O(n log(n))    | O(1)
+Bubblesort    | O(n)        | O(n^2)         | O(n^2)         | O(1)
+Insertionsort | O(n)        | O(n^2)         | O(n^2)         | O(1)
+Selectionsort | O(n^2)      | O(n^2)         | O(n^2)         | O(1)
+Shellsort     | O(n)        | O((nlog(n))^2) | O((nlog(n))^2) | O(1)
+Bucketsort    | O(n+k)      | O(n+k)         | O(n^2)         | O(n)
+Radixsort     | O(nk)       | O(nk)          | O(nk)          | O(n+k)
+
