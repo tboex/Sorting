@@ -6,6 +6,9 @@ libs/ contains various sorting algorithms
 # How to run
 - Compile the .cpp files with g++ on UNIX
 
-- (G++ algorithm.cpp -o algorithm)
+- (G++ file.cpp -o file)
 
-- run ./algorithm 
+- compile sortCheck.cpp,generator.cpp, and the sorting algorithm of your choice
+- Run ./Generator filename.txt
+- Run ./"YourSortingAlgorithm" filename.txt
+- Run ./SortCheck sorted-filename.txt
