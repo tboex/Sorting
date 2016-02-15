@@ -7,14 +7,15 @@ using namespace std;
 
 bool checkSorted(int* arr, const int size)
 {
+   bool val = true;
    for(int i = 0; i< size-1; i++)
    {
       if(arr[i]>arr[i+1])
       {
-         return false;
+         val = false;
       }
    }
-   return true;
+   return val;
 }//Checks if the array is sorted
 
 int main(int argc, char* argv[])
